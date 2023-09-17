@@ -13,12 +13,12 @@ function checkEligibility(event) {
     if (seniorEligible) {
 
       let h2 = document.querySelector("h2");
-        h2.innerHTML = "Congradulations ! You qualify for the Senior Discount";
+        h2.innerHTML = "Congratulations ! You qualify for the Senior Discount";
       
     } else if (memberElegibile) {
 
          let h2 = document.querySelector("h2");
-        h2.innerHTML = "Congradulations ! You qualify for the Member Discount";
+        h2.innerHTML = "Congratulations ! You qualify for the Member Discount";
     
       } else {
         let h2 = document.querySelector("h2");
